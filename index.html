@@ -9,6 +9,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
   <link rel="stylesheet" type="text/css" href="./style.css" />
+  <!--Link to actual page-->
+
+  <!--article-preview-component-gold-nu.vercel.app-->
 
   <title>Frontend Mentor | Article preview component</title>
 
@@ -17,6 +20,8 @@
       font-size: 11px;
       text-align: center;
       position: absolute;
+      left: 0;
+      right: 0;
       bottom: 0;
     }
 
@@ -30,47 +35,50 @@
   <div id="container">
     <img id="banner" src="./images/drawers.jpg" alt="drawers" />
 
-    <section id="top-section">
-      <span id="heading">
-        Shift the overall look and feel by adding these wonderful touches to
-        furniture in your home
-      </span>
+    <section>
+      <div id="top-section">
+        <span id="heading">
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </span>
 
-      <p>
-        Ever been in a room and felt like something was missing? Perhaps it
-        felt slightly bare and uninviting. I’ve got some simple tips to help
-        you make any room feel complete.
-      </p>
-    </section>
+        <p>
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I’ve got some simple tips to help
+          you make any room feel complete.
+        </p>
+      </div>
 
-    <section id="bottom-section">
+      <div id="bottom-section">
 
-      <div id="profile">
-        <img id="avatar" src="./images/avatar-michelle.jpg" alt="avatar image" />
+        <div id="profile">
+          <img id="avatar" src="./images/avatar-michelle.jpg" alt="avatar image" />
 
-        <div id="profile-info">
-          <span id="name">Michelle Appleton</span>
-          <span id="date">28 Jun 2020</span>
+          <div id="profile-info">
+            <span id="name">Michelle Appleton</span>
+            <span id="date">28 Jun 2020</span>
+          </div>
+
+        </div>
+
+        <div class="hidden visible" id="share-links">
+          <span>SHARE</span>
+
+          <img src="./images/icon-facebook.svg" alt="icon-facebook" />
+          <img src="./images/icon-twitter.svg" alt="icon-twitter" />
+          <img src="./images/icon-pinterest.svg" alt="icon-pinterest" />
+
+        </div>
+        <div class="hidden" id="arrow-down"></div>
+
+        <div id="share-icon-bg">
+          <img id="share-icon" src="./images/icon-share.svg" alt="icon-share" />
         </div>
 
       </div>
-
-      <div class="hidden visible" id="share-links">
-        <span>SHARE</span>
-
-        <img src="./images/icon-facebook.svg" alt="icon-facebook" />
-        <img src="./images/icon-twitter.svg" alt="icon-twitter" />
-        <img src="./images/icon-pinterest.svg" alt="icon-pinterest" />
-
-      </div>
-
-      <div id="share-icon-bg">
-        <img id="share-icon" src="./images/icon-share.svg" alt="icon-share" />
-      </div>
-
     </section>
-
   </div>
+
   <script src="./script.js"></script>
 
   <div class="attribution">
