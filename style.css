@@ -15,11 +15,12 @@
 
 body {
   font-size: 0.8125rem;
-  font-family: Manrope, sans-serif;
+  font-family: 'Manrope', sans-serif;
   padding: 0 1.375rem;
   font-weight: 500;
   padding-top: 4.5625rem;
   background: var(--lightGrayishBlue);
+  position: relative;
 }
 
 #container {
